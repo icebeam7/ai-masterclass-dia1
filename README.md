@@ -74,21 +74,10 @@ python -m pytest -q
 
 Estas pruebas validan la lógica local; **no prueban el servicio Azure**. Para comprobar la integración, ejecuta `python -m scripts.check_connection` con un proyecto real.
 
-## Compartir en GitHub
-
-```bash
-git init
-git add .
-git commit -m "Laboratorio clase 1: Foundry Responses"
-# Crea un repositorio vacío en GitHub y ejecuta los comandos que te indique la plataforma.
-```
-
-Antes de publicar: revisa que no estén incluidos `.env`, `data/runs/`, documentos confidenciales ni identificadores internos. Puedes entregar la carpeta ZIP directamente a los alumnos.
-
 ## Referencias oficiales
 
 - [Quickstart del SDK de Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/quickstarts/get-started-code)
 - [SDK Python Azure AI Projects](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme)
 - [Responses API en Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/responses)
 
-> Este repositorio es un laboratorio educativo para entorno local, no una aplicación lista para producción. Requiere autenticación y recursos reales proporcionados por el instructor o cada participante.
+> Este repositorio es un laboratorio educativo para entorno local, no una aplicación lista para producción. 
